@@ -3,3 +3,6 @@
 org.eclipse.jdt.core.prefs
 .settings/*
 .project	
+.settings/org.eclipse.buildship.core.prefs
+.idea/
+*.iml
