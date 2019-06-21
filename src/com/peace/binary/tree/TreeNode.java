@@ -2,9 +2,11 @@ package com.peace.binary.tree;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
+@ToString
 public class TreeNode <T>{
     T data;
     TreeNode left;
@@ -12,4 +14,5 @@ public class TreeNode <T>{
     TreeNode(T data) {
       this.data = data;
     }
+
   }

@@ -16,6 +16,7 @@ public class EvaluateExpression {
     String expression = "(2+((3+4)*(8-5)))";
     String expression1 = "(100 * (2 + 12))";
     System.out.println(evaluate(expression1));
+    System.out.println(evaluate(expression));
   }
 
 

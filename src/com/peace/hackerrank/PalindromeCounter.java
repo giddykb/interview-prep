@@ -60,7 +60,7 @@ public class PalindromeCounter {
   }
 
   public static void main(String[] args) {
-    String str = "tacocat";
+    String str = "aaa";
     System.out.println(countPalindrome(str));
     System.out.println(count(str));
   }

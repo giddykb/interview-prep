@@ -23,7 +23,7 @@ public class BinaryTree {
 
   BinaryTree() {
     //String data = "[3,5,1,6,2,0,8,null,null,7,4]";
-    String data = "[10,-2,6,8,-4,7,5]";
+    String data = "[1,2,5,3,4,null,6]";
     constructTreeLevelOrder(data);
 
   }
