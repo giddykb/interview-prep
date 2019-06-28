@@ -32,6 +32,7 @@ public class SlidingWindowMinMax {
       if (i >= window-1) {
         res[idx++] = nums[deque.peekFirst()];
       }
+      System.out.println(deque.toString());
     }
     return res;
   }
